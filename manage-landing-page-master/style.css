@@ -1,0 +1,489 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.header-container img {
+  height: max-content;
+  padding-top: 15px;
+}
+
+.header-container #humburger-icon {
+  display: none;
+}
+
+.header-container #close-icon {
+  display: none;
+}
+
+.header-container ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(228, 39%, 23%);
+  justify-content: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.header-container .one:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.header-container .two:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.header-container .three:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.header-container .four:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.header-container .five:hover {
+  color: hsl(227, 12%, 61%);
+}
+
+.header-container .btn {
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 25px;
+  box-shadow: 1px 10px 2px hsl(13, 100%, 96%);
+  z-index: 2px;
+  cursor: pointer;
+}
+
+.header-container .figure {
+  height: 20px;
+}
+
+.header-container .figure img {
+  position: absolute;
+  z-index: -1;
+  top: -196px;
+  right: -30px;
+  width: 700px;
+  height: 700px;
+}
+
+.main-container {
+}
+.section-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.article-container {
+  width: 30%;
+  padding: 0px 15px;
+  margin-top: 50px;
+  /* margin-right: 90px; */
+}
+
+.article-container h1 {
+  font-size: 35px;
+  color: hsl(228, 39%, 23%);
+}
+
+.article-container p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(227, 12%, 61%);
+  padding-top: 20px;
+}
+
+.article-container .btn {
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 25px;
+  box-shadow: 1px 10px 2px hsl(13, 100%, 96%);
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.section-container figure {
+}
+
+.section-container figure img {
+  width: 390px;
+  margin-right: 140px;
+}
+
+
+
+.section-container1 {
+  display: flex;
+  gap: 350px;
+  margin-top: 50px;
+  /* margin-left: 200px; */
+}
+
+.article-container-1 {
+  /* border: 2px red solid; */
+  margin-left: 107px;
+  height: 200px;
+  /* margin-left: 30px; */
+  /* padding-right: 90px; */
+}
+
+.article-container-1 h2 {
+  color: hsl(228, 39%, 23%);
+  /* font-size: 20px; */
+}
+
+.article-container-1 p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(227, 12%, 61%);
+  margin-top: 20px;
+}
+
+.child-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 35%;
+  padding-top: 30px;
+}
+.article-container-2 h3 {
+  font-size: 17px;
+  color: hsl(228, 39%, 23%);
+  margin-left: 50px;
+}
+
+.article-container-2 h3 span {
+  margin-right: 21px;
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  /* padding: 1px; */
+  padding: 0px 20px;
+  border-radius: 10px;
+  width: 20px;
+}
+
+.article-container-2 p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: hsl(227, 12%, 61%);
+  margin-top: 20px;
+  margin-left: 130px;
+}
+
+.section-container2 {
+    /* border: 2px solid red; */
+    margin-top: 200px;
+}
+
+.section-container2 h1 {
+    text-align: center;
+    margin-bottom: 90px;
+    color: hsl(228, 39%, 23%);
+}
+
+.flex-container {
+    display: flex;
+    gap: 40px;
+    /* background-color: hsl(0, 0%, 98%); */
+    /* overflow-x: hidden; */
+}
+
+.section-container3 {
+    /* border: 2px solid red; */
+    padding: 0px 20px;
+    height: 200px;
+}
+
+.space-left1 {
+    background-color: hsl(0, 0%, 98%);
+
+}
+
+.space-left2 {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.space-left3 {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.space-left2 img {
+  right: 650px;
+}
+
+
+.section-container3 img {
+  width: 80px;
+  margin-left: 150px;
+  position: absolute;
+  top: 1400px;
+}
+.section-container3 h3 {
+text-align: center;
+margin-top: 50px;
+color: hsl(228, 39%, 23%);
+}
+
+.section-container3 p {
+  text-align: center;
+  color: hsl(227, 12%, 61%);
+}
+.figure-container {
+  position: absolute;
+  top: 800px;
+  right: 1000px;
+}
+
+.btn-1 {
+  background-color: hsl(12, 88%, 59%);
+  color: hsl(0, 0%, 98%);
+  border: none;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 25px;
+  box-shadow: 1px 10px 2px hsl(13, 100%, 96%);
+  cursor: pointer;
+  margin-top: 50px;
+  margin-left: 600px;
+
+}
+
+.section-container4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  background-color: hsl(12, 88%, 59%);
+  height: 200px;
+}
+
+.section-container4 h2 {
+  color: hsl(0, 0%, 98%);
+  font-size: 30px;
+  margin-top: 65px;
+}
+
+.section-container4 .btn-2 {
+  border: none;
+  font-weight: 500;
+  padding: 0px 30px;
+  height: 40px;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(12, 88%, 59%);
+  border-radius: 25px;
+  margin-top: 65px;
+  cursor: pointer;
+
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: hsl(228, 39%, 23%); */
+  background-color: hsl(233, 12%, 13%);
+}
+
+.footer-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-container1 img {
+  margin-top: 70px;
+}
+
+
+.figure-container1 {
+  display: flex;
+  gap: 10px;
+}
+
+.figure-container1 img:hover {
+  background-color: hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+.footer-container2 {
+  margin-top: 70px;
+  display: flex;
+  gap: 200px;
+}
+
+.div-1 .ul-class {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.div-2 .ul-class {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+
+.footer-container2 ul li a {
+color: hsl(0, 0%, 98%);
+text-decoration: none;
+font-size: 15px;
+display: flex;
+}
+
+.footer-container2 ul li a:hover {
+  color: hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+
+.footer-container3 {
+  margin-top: 70px;
+
+}
+
+.footer-container3 #first {
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: none;
+  color: hsl(227, 12%, 61%);
+  font-size: 13px;
+  cursor: pointer;
+  outline:none;
+}
+
+.footer-container3 #first:focus {
+  border: 1px solid black;
+}
+
+.footer-container #second {
+  width: 50px;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  background-color: hsl(12, 88%, 59%);
+  outline: none;
+  cursor: pointer;
+}
+
+.footer-container3 #second:focus {
+  border: 1px black solid;
+}
+.footer-container3 input[placholder] {
+  color: #fff;
+}
+
+.footer-container3 p {
+  font-size: 10px;
+  color: hsl(227, 12%, 61%);
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  * {
+    /* overflow-x: hidden; */
+  }
+.btn {
+  display: none;
+}
+
+.header-container {
+  display: block;
+  padding: 10px;
+}
+
+.header-container #humburger-icon {
+  display: block;
+  margin-right: 20px;
+}
+
+.header-container #close-icon {
+  display: block;
+  width: 30px;
+}
+
+.mobile-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  margin: 20px 20px;
+  gap: 30px;
+  height: 400px;
+  padding-top: 2px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px grey;
+  position: fixed;
+  z-index: 2;
+  transition: 0.3s;
+  overflow-x: hidden;
+  transition: all 600ms ease;
+  width: 340px;
+}
+
+#close-icon {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+
+#nav_menu li {
+  font-weight: 700;
+  color: hsl(228, 39%, 23%);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#nav-menu li:hover {
+  color: hsl(12, 88%, 59%);
+}
+
+#first-image {
+  width: 100px;
+  margin-left: 20px;
+}
+.flex-container {
+  flex-direction: column;
+}
+
+
+
+}
+
