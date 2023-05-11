@@ -438,10 +438,12 @@ display: flex;
 
 .display {
   display: flex !important;
+  transition: display  600ms ease;
 }
 
 #humburger_icon {
-  transition: 0.3s;
+  /* transition: 0.3s; */
+  /* transition: all 600ms ease; */
 }
 
 #nav_menu {
@@ -459,10 +461,11 @@ display: flex;
   box-shadow: 2px 2px 2px grey;
   position: fixed;
   z-index: 2;
-  transition: 0.5s;
+  /* transition: 5s; */
   overflow-x: hidden;
-  transition: all 600ms ease;
+  /* transition: all 600ms ease; */
   width: 340px;
+  transition: display  600ms ease;
 }
 
 #closeIcon {
