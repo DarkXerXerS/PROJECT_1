@@ -436,8 +436,16 @@ display: flex;
   justify-content: space-between;
 }
 
+.display {
+  display: flex !important;
+}
+
+#humburger_icon {
+  transition: 0.3s;
+}
+
 #nav_menu {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -451,16 +459,18 @@ display: flex;
   box-shadow: 2px 2px 2px grey;
   position: fixed;
   z-index: 2;
-  transition: 0.3s;
+  transition: 0.5s;
   overflow-x: hidden;
   transition: all 600ms ease;
   width: 340px;
 }
 
-#close-icon {
+#closeIcon {
   position: absolute;
   top: 0px;
   right: 20px;
+  transition: 0.3s;
+  transition: all 600ms ease;
 }
 
 #nav_menu li {

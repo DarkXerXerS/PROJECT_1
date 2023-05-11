@@ -1,4 +1,4 @@
-nav_bar.addEventListener("click", ()=> {
+humburger_icon.addEventListener("click", ()=> {
     nav_menu.classList.add("display");
 });
 
