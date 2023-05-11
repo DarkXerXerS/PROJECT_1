@@ -303,7 +303,6 @@ color: hsl(228, 39%, 23%);
 .footer-container {
   display: flex;
   justify-content: space-around;
-  /* background-color: hsl(228, 39%, 23%); */
   background-color: hsl(233, 12%, 13%);
 }
 
