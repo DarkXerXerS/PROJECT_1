@@ -514,9 +514,20 @@ width: 550px;
 .section-container {
   display: flex;
   flex-direction: column-reverse;
-  /* justify-content: space-around; */
-  /* margin-top: 40px; */
 }
+
+.article-container {
+  width: 100%;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.article-container .btn {
+  display: block;
+margin-left: 95px;
+margin-top: 30px;
+}
+
 
 
 }
