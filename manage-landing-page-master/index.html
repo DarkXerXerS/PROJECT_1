@@ -12,6 +12,10 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header class="header-container">
@@ -31,11 +35,7 @@
         id="humburger-i
       /> -->
       <ul id="nav_menu">
-        <img
-          src="./images/icon-close.svg"
-          alt="close-icon"
-          id="closeIcon"
-        />
+        <img src="./images/icon-close.svg" alt="close-icon" id="closeIcon" />
         <li class="one">Pricing</li>
         <li class="two">Product</li>
         <li class="three">About Us</li>
@@ -109,10 +109,10 @@
         </section>
       </section>
 
-      <section class="section-container2">
+      <!-- <section class="section-container2">
         <h1>What they’ve said</h1>
         <div class="flex-container">
-          <section class="section-container3 space-left1">
+          <section class="section-container3 space-left1 card_slider">
             <img src="./images/avatar-anisha.png" alt="Anisha's-image" />
             <h3>Anisha Li</h3>
             <p>
@@ -141,6 +141,37 @@
               I talk to!”
             </p>
           </section>
+        </div>
+      </section> -->
+
+      <section class="section-container2">
+        <h1>What they’ve said</h1>
+        <div class="flex-container slide-container">
+          <div class="slide-content">
+            <div class="card-wrapper">
+              <div class="card">
+                <div class="image-content">
+
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      src="./images/avatar-anisha.png"
+                      alt="Anisha's-image" class="border"
+                    />
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3 class="name">Anisha Li</h3>
+                  <p class="description">
+                    “We have been able to cancel so many other subscriptions
+                    since using Manage. There is no more cross-channel confusion
+                    and everyone is much more focused.”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -196,7 +227,17 @@
         <p>Copyright 2020. All Rights Reserved</p>
       </section>
     </footer>
-    <script src="./type.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./type.js">
+            var swiper = new Swiper(".card_slider", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
 

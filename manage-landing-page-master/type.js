@@ -18,6 +18,8 @@ document.addEventListener("click", (event) => {
 
 
 
+
+
 // let nav_bar = document.getElementById("humburger-icon");
 //  function togglemenu() {
 //     if (!nav_menu.contains(event.target) && !nav_bar.contains(event.target)) {
