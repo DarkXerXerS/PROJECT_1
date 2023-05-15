@@ -408,10 +408,10 @@ display: flex;
 
 
 @media only screen and (max-width: 480px) {
+* {
+  overflow-x: hidden;
+}
 
-  * {
-    /* overflow-x: hidden; */
-  }
 .btn {
   display: none;
 }
@@ -495,6 +495,24 @@ display: flex;
   flex-direction: column;
 }
 
+.header-container .figure img {
+  /* position: absolute;
+  z-index: -1;
+  top: -243px;
+  right: -343px;
+  width: 500px;
+  height: 333px;
+*/
+position: absolute;
+top: -10px;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: space-around; */
+  /* margin-top: 40px; */
+}
 
 
 }
