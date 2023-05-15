@@ -550,5 +550,25 @@ margin-top: 30px;
   text-align: left;
 }
 
+.article-container-2 h3 {
+  background-color: hsl(13, 100%, 96%);
+  margin-left: 15px;
+  padding: 7px 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.article-container-2 h3 span  {
+  margin-right: 1px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.article-container-2 p {
+ margin: 0px 20px;
+ margin-top: 10px;
+ font-size: 13px;
+}
+
 }
 
