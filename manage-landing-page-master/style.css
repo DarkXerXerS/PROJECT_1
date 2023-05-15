@@ -504,7 +504,11 @@ display: flex;
   height: 333px;
 */
 position: absolute;
-top: -10px;
+top: -34px;
+/* right: 89px; */
+height: 500px;
+left: -170px;
+width: 550px;
 }
 
 .section-container {
