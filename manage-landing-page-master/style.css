@@ -198,6 +198,14 @@
     border: 2px solid red;
     margin-top: 200px;
 }
+
+.slide-container {
+max-width: 1120px;
+width: 100%;
+background-color: grey;
+}
+
+
 .card {
      background-color: hsl(0, 0%, 98%); 
     width: 320px;
@@ -232,7 +240,9 @@
   left: 0;
   top: 0;
   z-index: -1;
+  border-radius: 25px 25px 0px 25px;
 }
+
 
 .border {
   border: 2px solid #fff;
