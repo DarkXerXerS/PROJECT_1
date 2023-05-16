@@ -345,8 +345,9 @@ color: hsl(228, 39%, 23%);
 
 .section-container4 h2 {
   color: hsl(0, 0%, 98%);
-  font-size: 30px;
+  font-size: 35px;
   margin-top: 65px;
+  width: 35%;
 }
 
 .section-container4 .btn-2 {
@@ -640,7 +641,68 @@ margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
+.section-container4{
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
 
+.section-container4 h2 {
+font-size: 20px;
+border: 2px solid blue;
+width: 100%;
+text-align: center;
+}
+
+.section-container4 .btn-2 {
+  width: 20%;
+}
+
+/* .footer-container1 {
+  display: flex;
+  flex-direction: row;
+} */
+
+.footer-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.footer-container1 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.figure-container1 {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: 50px;
+  gap: 20px;
+}
+
+ #small {
+  width: 30px;
+}
+
+ .figure-container1 img {
+  width: 900px;
+} 
+
+.footer-container1 img {
+  margin-top: 20px;
+  width: 40%;
+  margin-left: 70px;
+}
+
+.footer-container2 {
+  display: flex;
+  gap: 60px;
+  margin: 0 30px;
+  /* justify-content: space-between; */
+}
+
+.footer-container3 {
+  
+}
 
 
 }
