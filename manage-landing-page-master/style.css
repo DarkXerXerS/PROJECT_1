@@ -201,20 +201,22 @@
 .slide-container {
 max-width: 1120px;
 width: 100%;
-background-color: grey;
+/* background-color: grey; */
 padding: 40px 0;
 }
 
 
 .card {
      background-color: hsl(0, 0%, 98%); 
-    width: 320px;
+    /* width: 320px; */
     border-bottom-left-radius: 14px;
     border-top-right-radius: 14px;
 
 }
 .slide-content {
   margin: 0 40px;
+  padding: 45px 20px;
+  /* background-color: red; */
 }
 
 .image-content,
