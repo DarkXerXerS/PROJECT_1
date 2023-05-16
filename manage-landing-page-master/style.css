@@ -208,7 +208,7 @@ padding: 40px 0;
 
 .card {
      background-color: hsl(0, 0%, 98%); 
-    /* width: 320px; */
+    width: 30%;
     border-bottom-left-radius: 14px;
     border-top-right-radius: 14px;
 
@@ -640,6 +640,8 @@ margin-top: 30px;
   display: flex;
   flex-direction: row;
 }
+
+
 
 }
 
