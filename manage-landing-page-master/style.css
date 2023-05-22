@@ -690,18 +690,18 @@ text-align: center;
 .footer-container1 img {
   margin-top: 20px;
   width: 40%;
-  margin-left: 70px;
+  margin-left: 102px;
 }
 
 .footer-container2 {
   display: flex;
-  gap: 60px;
-  margin: 0 30px;
+  gap: 102px;
+  margin: 0 37px;
   /* justify-content: space-between; */
 }
 
 .footer-container3 {
-  
+
 }
 
 
